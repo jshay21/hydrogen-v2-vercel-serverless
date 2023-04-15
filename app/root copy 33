@@ -36,6 +36,7 @@ export const meta: MetaFunction = () => ({
 });
 
 export async function loader({context}: LoaderArgs) {
+  console.log('app loader called');
   const layout = await context.storefront.query<{shop: Shop}>(LAYOUT_QUERY);
   return {layout};
 }
@@ -48,6 +49,7 @@ export default function App() {
   return (
     <html lang="en">
       <head>
+        <title>{name}</title>
         <Meta />
         <Links />
       </head>
