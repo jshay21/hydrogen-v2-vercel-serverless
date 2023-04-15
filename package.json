@@ -25,6 +25,7 @@
     "@shopify/remix-oxygen": "^1.0.2",
     "@vercel/analytics": "^0.1.11",
     "@vercel/remix": "^1.15.0",
+    "clsx": "^1.2.1",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
     "react": "^18.2.0",
@@ -37,7 +38,6 @@
     "@types/eslint": "^8.4.10",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
-
     "autoprefixer": "^10.4.14",
     "concurrently": "^8.0.1",
     "eslint": "^8.20.0",
